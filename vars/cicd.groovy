@@ -10,5 +10,5 @@ def build()
 
 def deploy(jn,ip,contxt)
 {
-   sh "scp /var/lib/jenkins/workspace/${jn}/webapp/target/webapp.war ubuntu@${ip}:8080 /var/lib/tomcat9/webapps/${contxt}.war"
+   sh "scp/var/lib/jenkins/workspace/${jn}/webapp/target/webapp.war ubuntu@${ip}:8080 /var/lib/tomcat9/webapps/${contxt}.war"
 }
